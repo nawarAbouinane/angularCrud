@@ -1,0 +1,25 @@
+
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        List of Persons
+    
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                  <th>id</th>
+                  <th>Name</th>
+                  <th>Birthdate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let row of persons">
+                  <td>{{row.id}}</td>
+                  <td>{{row.name}}</td>
+                  <td>{{row.birthdate}}</td>
+                  <td> <button (click)="delete(row.id)" class="btn btn-sm btn-dark">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  </button> </td>
+                </tbody>
+          </table>
+    </div>
+</div>

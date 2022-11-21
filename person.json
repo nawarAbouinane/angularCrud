@@ -1,0 +1,14 @@
+{
+  "persons": [
+    {
+      "id": "12",
+      "name": "khadija",
+      "birthdate": "2000-06-05"
+    },
+    {
+      "id": "1",
+      "name": "Rawan",
+      "birthdate": "2021-07-10"
+    }
+  ]
+}
